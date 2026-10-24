@@ -452,34 +452,62 @@
     box-shadow: 0 15px 32px rgba(234, 179, 8, 0.65);
   }
 
-  /* Copyright & Developer Footer */
-  .footer-credit {
-    margin-top: 2rem;
-    padding-top: 1.2rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.12);
-    font-size: 0.9rem;
-    color: #cbd5e1;
+  /* Next-Gen Group Copyright & WhatsApp Business Footer */
+  .nextgen-footer {
+    margin-top: 2.2rem;
+    padding: 1.4rem 1.1rem 0.4rem;
+    border-top: 1px solid rgba(250, 204, 21, 0.22);
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.65rem;
   }
-  .whatsapp-link {
+
+  .nextgen-promo {
+    font-size: 0.88rem;
+    color: #e9d5ff;
+    letter-spacing: 0.01em;
+  }
+
+  .whatsapp-btn {
     display: inline-flex;
     align-items: center;
-    gap: 0.4rem;
-    padding: 0.4rem 1rem;
+    gap: 0.55rem;
+    padding: 0.55rem 1.25rem;
     border-radius: 999px;
-    background: rgba(37, 211, 102, 0.15);
-    border: 1px solid rgba(37, 211, 102, 0.4);
-    color: #4ade80;
+    background: linear-gradient(135deg, rgba(34, 197, 94, 0.22), rgba(16, 185, 129, 0.12));
+    border: 1px solid rgba(74, 222, 128, 0.45);
+    color: #86efac;
+    font-size: 0.9rem;
+    font-weight: 700;
     text-decoration: none;
-    font-weight: 600;
-    transition: background 0.2s ease, transform 0.2s ease;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.15);
+    transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
   }
-  .whatsapp-link:hover {
-    background: rgba(37, 211, 102, 0.25);
+
+  .whatsapp-btn:hover {
     transform: translateY(-2px);
+    background: linear-gradient(135deg, rgba(34, 197, 94, 0.35), rgba(16, 185, 129, 0.22));
+    box-shadow: 0 12px 26px rgba(34, 197, 94, 0.28);
+  }
+
+  .whatsapp-icon {
+    width: 18px;
+    height: 18px;
+    fill: #4ade80;
+    flex-shrink: 0;
+  }
+
+  .copyright-line {
+    margin-top: 0.25rem;
+    font-size: 0.8rem;
+    color: #94a3b8;
+    letter-spacing: 0.03em;
+  }
+
+  .copyright-line strong {
+    color: var(--gold-soft);
+    font-weight: 600;
   }
 
   /* Ribbon Cut Overlay & Sparkles */
@@ -697,7 +725,7 @@
       </p>
       <div>
         <h2 class="serif couple-title gold-gradient-text">
-          ಚಿ।ಸೌ। ವರ್ಷಾ ಮಹೇಂದ್ರಕರ್
+          ಚಿ।ಸೌ। ವರ್ಷಾ ಮಹೀಂದ್ರಕರ್
         </h2>
       </div>
       <div>
@@ -722,7 +750,7 @@
       </p>
       <p class="serif" style="font-weight:700; font-size:1.15rem; line-height:2; color:#e9d5ff;">
         ಶ್ರೀಮತಿ ಮಂಜುಳಾಬಾಯಿ, ಶ್ರೀ ಧನಂಜಯರಾವ್ ಪಿ.ಕೆ.<br>
-        ಶ್ರೀಮತಿ ಶೋಭಾಬಾಯಿ, ಶ್ರೀ ವಿಠ್ಠಲ್ ಮಹೇಂದ್ರಕರ್<br>
+        ಶ್ರೀಮತಿ ಶೋಭಾಬಾಯಿ, ಶ್ರೀ ವಿಠ್ಠಲ್ ಮಹೀಂದ್ರಕರ್<br>
         <span style="font-size:0.98rem; color:#bae6fd; font-weight:600;">
           ಚಿ. ಸಿರಿಗಾನವಿ, ಚಿ. ಪೂರ್ವಿಕ, ಚಿ. ನಿಶಾಂತ್, ಚಿ. ಮಹಿಮಾ
         </span>
@@ -812,14 +840,26 @@
       </p>
     </div>
 
-    <!-- Copyright & WhatsApp Business Footer -->
-    <div class="footer-credit">
-      <p>© 2026 Next-Gen Group. All rights reserved.</p>
-      <a class="whatsapp-link" href="https://wa.me/918095117035" target="_blank" rel="noopener noreferrer">
-        <span>💬 WhatsApp Business: +91 80951 17035</span>
+    <!-- Next-Gen Group Copyright & WhatsApp Business Footer -->
+    <footer class="nextgen-footer">
+      <p class="nextgen-promo">
+        ಇದೇ ರೀತಿಯ ಆಕರ್ಷಕ ಡಿಜಿಟಲ್ ವೆಬ್ ಆಹ್ವಾನ ಪತ್ರಿಕೆಗಾಗಿ ಸಂಪರ್ಕಿಸಿ (For similar web invitations):
+      </p>
+      <a
+        class="whatsapp-btn"
+        href="https://wa.me/918095117035?text=Hello%20Next-Gen%20Group%2C%20I%20would%20like%20to%20inquire%20about%20a%20digital%20web%20invitation."
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <svg class="whatsapp-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824zm-3.423-14.416c-6.627 0-12 5.373-12 12 0 2.126.556 4.122 1.529 5.854l-1.529 5.586 5.735-1.504c1.693.923 3.633 1.464 5.701 1.464 6.627 0 12-5.373 12-12s-5.373-11.4-11.436-11.4z"/>
+        </svg>
+        <span>WhatsApp Business: +91 80951 17035</span>
       </a>
-    </div>
-
+      <p class="copyright-line">
+        &copy; 2026 <strong>Next-Gen Group</strong>. All Rights Reserved.
+      </p>
+    </footer>
   </div>
 </section>
 
