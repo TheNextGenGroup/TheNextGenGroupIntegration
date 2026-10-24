@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="kn">
 <head>
@@ -453,6 +452,36 @@
     box-shadow: 0 15px 32px rgba(234, 179, 8, 0.65);
   }
 
+  /* Copyright & Developer Footer */
+  .footer-credit {
+    margin-top: 2rem;
+    padding-top: 1.2rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    font-size: 0.9rem;
+    color: #cbd5e1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .whatsapp-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.4rem 1rem;
+    border-radius: 999px;
+    background: rgba(37, 211, 102, 0.15);
+    border: 1px solid rgba(37, 211, 102, 0.4);
+    color: #4ade80;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.2s ease, transform 0.2s ease;
+  }
+  .whatsapp-link:hover {
+    background: rgba(37, 211, 102, 0.25);
+    transform: translateY(-2px);
+  }
+
   /* Ribbon Cut Overlay & Sparkles */
   #ribbon-overlay {
     position: fixed;
@@ -620,8 +649,8 @@
         <p class="serif text-gold" style="font-size:0.85rem; margin-bottom:0.45rem;">
           ॥ ಶ್ರೀ ನರಸಿಂಹ ಸ್ವಾಮಿ ಪ್ರಸನ್ನ ॥
         </p>
-        <div><span class="serif family-name royal-gradient-text">ಶ್ರೀಮತಿ ಶೋಭಾಬಾಯಿ ವಿಠ್ಠಲ್  ಮಹೀಂದ್ರಕರ್,</span></div>
-        <div><span class="serif family-name royal-gradient-text">ಶ್ರೀ ವಿಠ್ಠಲ್‌ರಾವ್ ಪರಶುರಾಮ್  ಮಹೀಂದ್ರಕರ್</span></div>
+        <div><span class="serif family-name royal-gradient-text">ಶ್ರೀಮತಿ ಶೋಭಾಬಾಯಿ ವಿಠ್ಠಲ್ ಮಹೀಂದ್ರಕರ್,</span></div>
+        <div><span class="serif family-name royal-gradient-text">ಶ್ರೀ ವಿಠ್ಠಲ್‌ರಾವ್ ಪರಶುರಾಮ್ ಮಹೀಂದ್ರಕರ್</span></div>
         <p class="family-place">
           ತಾಳಿಕೋಟೆ ಟೌನ್,<br>ಬಿಜಾಪುರ (ವಿಜಯಪುರ) ಜಿಲ್ಲೆ.
         </p>
@@ -664,11 +693,11 @@
     <div class="couple-card">
       <span class="role-pill role-bride">ವಧು</span>
        <p style="font-size:0.92rem; color:#cbd5e1; line-height:1.7; margin-top:0.65rem;">
-        ಶ್ರೀಮತಿ ಶೋಭಾಬಾಯಿ, ಶ್ರೀ ವಿಠ್ಠಲ್  ಮಹೀಂದ್ರಕರ್<br>ಇವರ ಕಿರಿಯ ಪುತ್ರಿ
+        ಶ್ರೀಮತಿ ಶೋಭಾಬಾಯಿ, ಶ್ರೀ ವಿಠ್ಠಲ್ ಮಹೀಂದ್ರಕರ್<br>ಇವರ ಕಿರಿಯ ಪುತ್ರಿ
       </p>
       <div>
         <h2 class="serif couple-title gold-gradient-text">
-          ಚಿ।ಸೌ। ವರ್ಷಾ  ಮಹೀಂದ್ರಕರ್
+          ಚಿ।ಸೌ। ವರ್ಷಾ ಮಹೇಂದ್ರಕರ್
         </h2>
       </div>
       <div>
@@ -693,7 +722,7 @@
       </p>
       <p class="serif" style="font-weight:700; font-size:1.15rem; line-height:2; color:#e9d5ff;">
         ಶ್ರೀಮತಿ ಮಂಜುಳಾಬಾಯಿ, ಶ್ರೀ ಧನಂಜಯರಾವ್ ಪಿ.ಕೆ.<br>
-        ಶ್ರೀಮತಿ ಶೋಭಾಬಾಯಿ, ಶ್ರೀ ವಿಠ್ಠಲ್  ಮಹೀಂದ್ರಕರ್<br>
+        ಶ್ರೀಮತಿ ಶೋಭಾಬಾಯಿ, ಶ್ರೀ ವಿಠ್ಠಲ್ ಮಹೇಂದ್ರಕರ್<br>
         <span style="font-size:0.98rem; color:#bae6fd; font-weight:600;">
           ಚಿ. ಸಿರಿಗಾನವಿ, ಚಿ. ಪೂರ್ವಿಕ, ಚಿ. ನಿಶಾಂತ್, ಚಿ. ಮಹಿಮಾ
         </span>
@@ -778,10 +807,19 @@
       <p style="line-height:2.1; font-size:0.98rem; color:#e2e8f0;">
         ಹಿರಿಯರಾದ ಶ್ರೀ ರಾಮೇಶ್ವರರಾವ್ ಪಿ.ಕೆ. ಪೋಕಾಳೆ ಕುಟುಂಬದವರು<br>
         ಮಾಳೋದೆ ಕುಟುಂಬದವರು • ಭಾಸುತ್ಕರ್ ಕುಟುಂಬದವರು<br>
-        ನವಲೆ ಕುಟುಂಬದವರು ಮತ್ತು  ಮಹೀಂದ್ರಕರ್ ಕುಟುಂಬದವರು<br>
+        ನವಲೆ ಕುಟುಂಬದವರು ಮತ್ತು ಮಹೀಂದ್ರಕರ್ ಕುಟುಂಬದವರು<br>
         ಹಾಗೂ ಬಂಧು-ಮಿತ್ರರು
       </p>
     </div>
+
+    <!-- Copyright & WhatsApp Business Footer -->
+    <div class="footer-credit">
+      <p>© 2026 Next-Gen Group. All rights reserved.</p>
+      <a class="whatsapp-link" href="https://wa.me/918095117035" target="_blank" rel="noopener noreferrer">
+        <span>💬 WhatsApp Business: +91 80951 17035</span>
+      </a>
+    </div>
+
   </div>
 </section>
 
